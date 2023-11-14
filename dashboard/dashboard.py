@@ -73,8 +73,8 @@ def create_weekday_df(df):
     return weekday_df
 
 
-# membaca csv C:\Users\anas\Desktop\dataset\dashboard
-all_df = pd.read_csv('.\dataset\dashboard\hour.csv')
+# membaca csv C:\Users\anas\Desktop\dataset\dashboard\hour.csv
+all_df = pd.read_csv(".\hour.csv")
 
 all_df.rename(columns={
     'dteday': 'dateday',
@@ -109,7 +109,7 @@ max_date = all_df["dateday"].max()
 
 # side
 with st.sidebar:
-    st.image("./dashboard/bike.jpg")
+    st.image("https://www.freepik.com/free-vector/bicycle-logo-design-template_42061726.htm#query=bike%20logo&position=25&from_view=search&track=ais&uuid=3ced7b8a-2ba8-4fc2-8c9c-fa4d2e898398")
 
     # setting tanggal
     start_date, end_date = st.date_input(
