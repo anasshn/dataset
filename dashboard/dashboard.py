@@ -109,7 +109,8 @@ max_date = all_df["dateday"].max()
 
 # side
 with st.sidebar:
-    st.image("https://www.freepik.com/free-vector/bicycle-logo-design-template_42061726.htm#query=bike%20logo&position=25&from_view=search&track=ais&uuid=3ced7b8a-2ba8-4fc2-8c9c-fa4d2e898398")
+    # st.image("https://www.freepik.com/free-vector/bicycle-logo-design-template_42061726.htm#query=bike%20logo&position=25&from_view=search&track=ais&uuid=3ced7b8a-2ba8-4fc2-8c9c-fa4d2e898398")
+    st.image('bike.jpg')
 
     # setting tanggal
     start_date, end_date = st.date_input(
